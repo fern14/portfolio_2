@@ -1,0 +1,41 @@
+header {
+  background-color: #1c1e53;
+  font-family: "Poppins";
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1.5rem;
+  margin-right: 2rem;
+}
+
+.navbar ul li a {
+  color: #bbbbcb;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  color: #fff;
+}
+
+.contact_us {
+  box-sizing: border-box;
+  margin-left: 2.5rem;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 15px 25px;
+  border-radius: 41px;
+}
+
+.contact_us:hover {
+  background-color: #fff;
+  color: #000 !important;
+  transition: 0.2s;
+  letter-spacing: 0.05rem;
+}

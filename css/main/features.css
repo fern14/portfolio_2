@@ -1,0 +1,41 @@
+.features {
+  background-color: #f4f6fc;
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 100px;
+}
+
+.features_introducao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.features_introducao h2 {
+  font-size: 46px;
+  max-width: 20ch;
+  text-align: center;
+  line-height: 3.75rem;
+}
+
+.features_skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding-top: 4.5rem;
+}
+
+.features_skills_item {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 35px 20px;
+  border-radius: 4px;
+}
+
+.features_skills_item p {
+  max-width: 38ch;
+}
